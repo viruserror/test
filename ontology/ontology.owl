@@ -149,6 +149,14 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Qudamah">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Frame"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Sonia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Sonia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Frame"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
