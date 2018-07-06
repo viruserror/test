@@ -144,6 +144,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Nik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Nik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Lavatory"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Qudamah -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Qudamah">
