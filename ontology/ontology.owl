@@ -165,6 +165,14 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Sonia">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Frame"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Zixu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Zixu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Lavatory"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
