@@ -1,97 +1,165 @@
-
-Prefix(:=<http://www.semanticweb.org/digicor/ontology/tenderontology#>)
-Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
-Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
-Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
-Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
-Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
-
-
-Ontology(<http://www.semanticweb.org/digicor/ontology/tenderontology>
-
-Declaration(Class(:Bottom))
-Declaration(Class(:ElectricalSystem))
-Declaration(Class(:Frame))
-Declaration(Class(:Front))
-Declaration(Class(:Lavatory))
-Declaration(Class(:LavatoryTender))
-Declaration(Class(:Logistics))
-Declaration(Class(:Product))
-Declaration(Class(:Services))
-Declaration(Class(:Sidewall))
-Declaration(Class(:Storage))
-Declaration(Class(:Transport))
-Declaration(Class(:WaterSystem))
-Declaration(NamedIndividual(:Arturo))
-Declaration(NamedIndividual(:Qudamah))
-############################
-#   Classes
-############################
-
-# Class: :Bottom (:Bottom)
-
-SubClassOf(:Bottom :Frame)
-
-# Class: :ElectricalSystem (:ElectricalSystem)
-
-SubClassOf(:ElectricalSystem :Lavatory)
-
-# Class: :Frame (:Frame)
-
-SubClassOf(:Frame :Lavatory)
-
-# Class: :Front (:Front)
-
-SubClassOf(:Front :Frame)
-
-# Class: :Lavatory (:Lavatory)
-
-SubClassOf(:Lavatory :Product)
-
-# Class: :LavatoryTender (:LavatoryTender)
-
-SubClassOf(:LavatoryTender owl:Thing)
-
-# Class: :Logistics (:Logistics)
-
-SubClassOf(:Logistics :Services)
-
-# Class: :Product (:Product)
-
-SubClassOf(:Product :LavatoryTender)
-
-# Class: :Services (:Services)
-
-SubClassOf(:Services :LavatoryTender)
-
-# Class: :Sidewall (:Sidewall)
-
-SubClassOf(:Sidewall :Frame)
-
-# Class: :Storage (:Storage)
-
-SubClassOf(:Storage :Logistics)
-
-# Class: :Transport (:Transport)
-
-SubClassOf(:Transport :Logistics)
-
-# Class: :WaterSystem (:WaterSystem)
-
-SubClassOf(:WaterSystem :Lavatory)
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/digicor/ontology/tenderontology#"
+     xml:base="http://www.semanticweb.org/digicor/ontology/tenderontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology"/>
+    
 
 
-############################
-#   Named Individuals
-############################
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
 
-# Individual: :Arturo (:Arturo)
-
-ClassAssertion(:Services :Arturo)
-
-# Individual: :Qudamah (:Qudamah)
-
-ClassAssertion(:Frame :Qudamah)
+    
 
 
-)
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Bottom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Bottom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Frame"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#ElectricalSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#ElectricalSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Lavatory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Frame -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Frame">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Lavatory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Front -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Front">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Frame"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Lavatory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Lavatory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Product"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#LavatoryTender -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#LavatoryTender">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Logistics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Logistics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Services"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Product">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#LavatoryTender"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Services">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#LavatoryTender"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Sidewall -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Sidewall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Frame"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Storage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Storage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Logistics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Transport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Transport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Logistics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#WaterSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#WaterSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Lavatory"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#AJTest -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#AJTest">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Frame"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Arturo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Arturo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Services"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Qudamah -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Qudamah">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Frame"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
