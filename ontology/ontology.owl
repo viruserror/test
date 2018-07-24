@@ -157,6 +157,14 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Qudamah">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Frame"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Test20180724 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Test20180724">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Frame"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
