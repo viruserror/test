@@ -160,17 +160,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#ArturoJul24 -->
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Qudamah -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#ArturoJul24">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Qudamah">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Frame"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Qudamah -->
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Sonia -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Qudamah">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Sonia">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Frame"/>
     </owl:NamedIndividual>
 </rdf:RDF>
