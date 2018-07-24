@@ -160,6 +160,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#ArturoJul24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#ArturoJul24">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Frame"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Qudamah -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Qudamah">
