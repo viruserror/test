@@ -1,1 +1,97 @@
 
+Prefix(:=<http://www.semanticweb.org/digicor/ontology/tenderontology#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/digicor/ontology/tenderontology>
+
+Declaration(Class(:Bottom))
+Declaration(Class(:ElectricalSystem))
+Declaration(Class(:Frame))
+Declaration(Class(:Front))
+Declaration(Class(:Lavatory))
+Declaration(Class(:LavatoryTender))
+Declaration(Class(:Logistics))
+Declaration(Class(:Product))
+Declaration(Class(:Services))
+Declaration(Class(:Sidewall))
+Declaration(Class(:Storage))
+Declaration(Class(:Transport))
+Declaration(Class(:WaterSystem))
+Declaration(NamedIndividual(:Arturo))
+Declaration(NamedIndividual(:Qudamah))
+############################
+#   Classes
+############################
+
+# Class: :Bottom (:Bottom)
+
+SubClassOf(:Bottom :Frame)
+
+# Class: :ElectricalSystem (:ElectricalSystem)
+
+SubClassOf(:ElectricalSystem :Lavatory)
+
+# Class: :Frame (:Frame)
+
+SubClassOf(:Frame :Lavatory)
+
+# Class: :Front (:Front)
+
+SubClassOf(:Front :Frame)
+
+# Class: :Lavatory (:Lavatory)
+
+SubClassOf(:Lavatory :Product)
+
+# Class: :LavatoryTender (:LavatoryTender)
+
+SubClassOf(:LavatoryTender owl:Thing)
+
+# Class: :Logistics (:Logistics)
+
+SubClassOf(:Logistics :Services)
+
+# Class: :Product (:Product)
+
+SubClassOf(:Product :LavatoryTender)
+
+# Class: :Services (:Services)
+
+SubClassOf(:Services :LavatoryTender)
+
+# Class: :Sidewall (:Sidewall)
+
+SubClassOf(:Sidewall :Frame)
+
+# Class: :Storage (:Storage)
+
+SubClassOf(:Storage :Logistics)
+
+# Class: :Transport (:Transport)
+
+SubClassOf(:Transport :Logistics)
+
+# Class: :WaterSystem (:WaterSystem)
+
+SubClassOf(:WaterSystem :Lavatory)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: :Arturo (:Arturo)
+
+ClassAssertion(:Services :Arturo)
+
+# Individual: :Qudamah (:Qudamah)
+
+ClassAssertion(:Frame :Qudamah)
+
+
+)
