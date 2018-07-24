@@ -136,9 +136,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Arthur2Test -->
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Arthur2Test1 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Arthur2Test">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Arthur2Test1">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Lavatory"/>
     </owl:NamedIndividual>
     
