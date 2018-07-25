@@ -5081,7 +5081,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Economic_Goal_22">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Economic_Goal"/>
         <hasTargetItem rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#pre_assembled_and_tested_lavatory_module_1"/>
-        <Economic_Goal_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Source</Economic_Goal_Type>
+        <Economic_Goal_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Design&amp;Develop</Economic_Goal_Type>
     </owl:NamedIndividual>
     
 
