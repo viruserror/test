@@ -3569,12 +3569,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_3">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignments"/>
-        <hasAssignmentCompany rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#UflyControl"/>
+        <hasAssignmentCompany rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#AviaDesign"/>
         <hasTargetItem rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#lavatory_door_module1"/>
         <hasTargetItemParent rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#pre_assembled_and_tested_lavatory_module_1"/>
         <AssignmentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</AssignmentID>
         <Process_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">make</Process_Type>
-        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30</risk>
+        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40</risk>
     </owl:NamedIndividual>
     
 
@@ -6002,6 +6002,7 @@
         <hasAssignement rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_1"/>
         <hasAssignement rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_2"/>
         <hasAssignment rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_3"/>
+        <hasCFT rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#150_A321_Lavatory_door_module"/>
         <hasCFT rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#780_A330_Lavatory_door_handle"/>
         <TeamID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</TeamID>
         <TeamID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</TeamID>
