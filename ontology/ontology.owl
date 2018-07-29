@@ -5974,6 +5974,16 @@
     
 
 
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Team_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Team_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Team"/>
+        <hasCFT rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#150_A321_Lavatory_door_module"/>
+        <TeamID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</TeamID>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Test1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Test1">
