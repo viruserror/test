@@ -90,12 +90,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#hasAssignment -->
-
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#hasAssignment"/>
-    
-
-
     <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#hasAssignmentCompany -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#hasAssignmentCompany"/>
@@ -3535,62 +3529,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_1 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignments"/>
-        <hasAssignmentCompany rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#CT_Ltd."/>
-        <hasTargetItem rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#lavatory_door_module1"/>
-        <hasTargetItemParent rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#pre_assembled_and_tested_lavatory_module_1"/>
-        <AssignmentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</AssignmentID>
-        <Process_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Make</Process_Type>
-        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32</risk>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_2 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignments"/>
-        <hasAssignmentCompany rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Lavino_Ltd."/>
-        <hasTargetItem rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#lavatory_door_module1"/>
-        <hasTargetItemParent rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#pre_assembled_and_tested_lavatory_module_1"/>
-        <AssignmentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</AssignmentID>
-        <Process_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Source</Process_Type>
-        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#string">42</risk>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_3 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_3">
-        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignments"/>
-        <hasAssignmentCompany rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#CT_Ltd."/>
-        <hasTargetItem rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#lavatory_door_module1"/>
-        <hasTargetItemParent rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#pre_assembled_and_tested_lavatory_module_1"/>
-        <AssignmentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</AssignmentID>
-        <Process_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Make</Process_Type>
-        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#string">32</risk>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_4 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_4">
-        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignments"/>
-        <hasAssignmentCompany rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Lavino_Ltd."/>
-        <hasTargetItem rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#lavatory_door_module1"/>
-        <hasTargetItemParent rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#pre_assembled_and_tested_lavatory_module_1"/>
-        <AssignmentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</AssignmentID>
-        <Process_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Source</Process_Type>
-        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#string">42</risk>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Australia -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Australia">
@@ -6026,53 +5964,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Team_1 -->
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Diehl_Ltd -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Team_1">
-        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Team"/>
-        <hasCFT rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#230_A321_Lavatory_door_panel"/>
-        <TeamID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</TeamID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Team_2 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Team_2">
-        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Team"/>
-        <hasCFT rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#230_A321_Lavatory_door_panel"/>
-        <TeamID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</TeamID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Team_3 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Team_3">
-        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Team"/>
-        <hasAssignment rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_1"/>
-        <hasAssignment rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_2"/>
-        <hasCFT rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#230_A321_Lavatory_door_panel"/>
-        <TeamID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</TeamID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Team_4 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Team_4">
-        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Team"/>
-        <hasAssignment rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_3"/>
-        <hasAssignment rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_4"/>
-        <hasCFT rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#35000_K356_Mirror_inside_lavatory"/>
-        <TeamID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</TeamID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Test1 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Test1">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Diehl_Ltd">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
         <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#0-1000000"/>
         <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_25"/>
@@ -6088,16 +5982,16 @@
         <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Asia"/>
         <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Europe"/>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ID>
-        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test 1</Name>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diehl Ltd</Name>
         <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N</acceptCurrencyNegotiation>
         <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</risk>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Test2 -->
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#CoUK_Coop -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Test2">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#CoUK_Coop">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
         <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
         <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
@@ -6116,16 +6010,16 @@
         <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Australia"/>
         <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Germany"/>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ID>
-        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test 2</Name>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CoUK Coop</Name>
         <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
         <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.84</risk>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Test3 -->
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Design_Vital_Ltd -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Test3">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Design_Vital_Ltd">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
         <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
         <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
@@ -6142,16 +6036,16 @@
         <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Australia"/>
         <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#North_America"/>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ID>
-        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test 3</Name>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Design Vital Ltd.</Name>
         <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
         <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.45</risk>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Test4 -->
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#ABC_aviation -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Test4">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#ABC_aviation">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
         <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
         <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
@@ -6173,16 +6067,16 @@
         <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Germany"/>
         <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#North_America"/>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ID>
-        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test 4</Name>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABC Aviation</Name>
         <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
         <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</risk>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Test5 -->
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Openlane_Plc -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Test5">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Openlane_Plc">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
         <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
         <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
@@ -6203,16 +6097,16 @@
         <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Germany"/>
         <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#North_America"/>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ID>
-        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test 5</Name>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Openlane Plc</Name>
         <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
         <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.91</risk>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Test6 -->
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Newextech-->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Test6">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Newextech">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
         <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
         <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
@@ -6229,16 +6123,16 @@
         <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_31"/>
         <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#North_America"/>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ID>
-        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test 6</Name>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Newex Tech</Name>
         <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
         <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.33</risk>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Test7 -->
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Iselectrics -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Test7">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Iselectrics">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
         <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
         <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
@@ -6257,16 +6151,16 @@
         <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Asia"/>
         <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#North_America"/>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ID>
-        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test 7</Name>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iselectrics</Name>
         <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N</acceptCurrencyNegotiation>
         <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</risk>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Test8 -->
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Ontoair -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Test8">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Ontoair">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
         <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#0-1000000"/>
         <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
@@ -6283,16 +6177,16 @@
         <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Asia"/>
         <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#North_America"/>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ID>
-        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test 8</Name>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ontoair</Name>
         <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
         <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</risk>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Test9 -->
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Bluetronics -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Test9">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Bluetronics">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
         <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
         <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
@@ -6308,7 +6202,7 @@
         <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_33"/>
         <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Africa"/>
         <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ID>
-        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test 9</Name>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bluetronics</Name>
         <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
         <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.87</risk>
     </owl:NamedIndividual>
@@ -8922,5 +8816,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
 
