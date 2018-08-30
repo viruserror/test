@@ -90,6 +90,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#hasAssignment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#hasAssignment"/>
+    
+
+
     <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#hasAssignmentCompany -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#hasAssignmentCompany"/>
@@ -2840,6 +2846,37 @@
     
 
 
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#ABC_aviation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#ABC_aviation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
+        <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
+        <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
+        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_coatings_1"/>
+        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_metal_1"/>
+        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_heat_treatment_1"/>
+        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_machining_1"/>
+        <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Build_to_print"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build"/>
+        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_09"/>
+        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_21"/>
+        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_29"/>
+        <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#501-1000"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_10"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_11"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_27"/>
+        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Africa"/>
+        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Germany"/>
+        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#North_America"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ID>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABC Aviation</Name>
+        <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
+        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</risk>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_05 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_05">
@@ -3529,6 +3566,48 @@
     
 
 
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignments"/>
+        <hasAssignmentCompany rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Newextech"/>
+        <hasTargetItem rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#door_panel1"/>
+        <hasTargetItemParent rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#lavatory_door_module1"/>
+        <AssignmentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</AssignmentID>
+        <Process_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLAN&amp;MANAGE</Process_Type>
+        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.4</risk>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignments"/>
+        <hasAssignmentCompany rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Bluetronics"/>
+        <hasTargetItem rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#single_blade_door_20inch"/>
+        <hasTargetItemParent rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#door_panel1"/>
+        <AssignmentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</AssignmentID>
+        <Process_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DESIGN&amp;DEVELOP</Process_Type>
+        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.4</risk>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignments"/>
+        <hasAssignmentCompany rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Newextech"/>
+        <hasTargetItem rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#door_panel1"/>
+        <hasTargetItemParent rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#lavatory_door_module1"/>
+        <AssignmentID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</AssignmentID>
+        <Process_Type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SOURCE</Process_Type>
+        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.4</risk>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Australia -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Australia">
@@ -3577,6 +3656,31 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Berlin">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Locations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Bluetronics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Bluetronics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
+        <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
+        <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
+        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_coatings_1"/>
+        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_grinding_1"/>
+        <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build"/>
+        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_14"/>
+        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_25"/>
+        <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#51-200"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_19"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_32"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_33"/>
+        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Africa"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ID>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bluetronics</Name>
+        <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
+        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.87</risk>
     </owl:NamedIndividual>
     
 
@@ -4510,6 +4614,34 @@
     
 
 
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#CoUK_Coop -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#CoUK_Coop">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
+        <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
+        <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
+        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_coatings_1"/>
+        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_metal_1"/>
+        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_machining_1"/>
+        <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Build_to_print"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Service_contract"/>
+        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_07"/>
+        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_19"/>
+        <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#501-1000"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_08"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_26"/>
+        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Africa"/>
+        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Australia"/>
+        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Germany"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ID>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CoUK Coop</Name>
+        <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
+        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.84</risk>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Build_to_print -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Build_to_print">
@@ -4880,6 +5012,57 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Service">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Departments"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Design_Vital_Ltd -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Design_Vital_Ltd">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
+        <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
+        <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
+        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_coatings_1"/>
+        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_heat_treatment_1"/>
+        <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Build_to_print"/>
+        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_08"/>
+        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_20"/>
+        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_28"/>
+        <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#501-1000"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_09"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_25"/>
+        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Australia"/>
+        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#North_America"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ID>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Design Vital Ltd.</Name>
+        <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
+        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.45</risk>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Diehl_Ltd -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Diehl_Ltd">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
+        <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#0-1000000"/>
+        <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_25"/>
+        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_auxiliary_products_1"/>
+        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_surface_treatment_1"/>
+        <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Contract_for_work_&amp;_labour"/>
+        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_06"/>
+        <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#501-1000"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_14"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_29"/>
+        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Africa"/>
+        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Asia"/>
+        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Europe"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ID>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diehl Ltd</Name>
+        <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N</acceptCurrencyNegotiation>
+        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</risk>
     </owl:NamedIndividual>
     
 
@@ -5345,6 +5528,34 @@
     
 
 
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Iselectrics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Iselectrics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
+        <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
+        <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
+        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_coatings_1"/>
+        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_wood_1"/>
+        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_grinding_1"/>
+        <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build"/>
+        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_12"/>
+        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_24"/>
+        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_31"/>
+        <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#201-500"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_01"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_03"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_21"/>
+        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Asia"/>
+        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#North_America"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ID>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iselectrics</Name>
+        <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N</acceptCurrencyNegotiation>
+        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</risk>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Lavatory_lower_service_cabinet_assy1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Lavatory_lower_service_cabinet_assy1">
@@ -5500,10 +5711,92 @@
     
 
 
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Newextech -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Newextech">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
+        <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
+        <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
+        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_wood_1"/>
+        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_chip_removing_processes_1"/>
+        <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build"/>
+        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_11"/>
+        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_23"/>
+        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_30"/>
+        <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#201-500"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_18"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_20"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_31"/>
+        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#North_America"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ID>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Newex Tech</Name>
+        <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
+        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.33</risk>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#North_America -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#North_America">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#TargetRegion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Ontoair -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Ontoair">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
+        <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#0-1000000"/>
+        <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
+        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_coatings_1"/>
+        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_wood_1"/>
+        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_chip_removing_processes_1"/>
+        <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build"/>
+        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_13"/>
+        <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#201-500"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_02"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_04"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_22"/>
+        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Asia"/>
+        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#North_America"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ID>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ontoair</Name>
+        <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
+        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</risk>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Openlane_Plc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Openlane_Plc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
+        <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
+        <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
+        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_coatings_1"/>
+        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_metal_1"/>
+        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_heat_treatment_1"/>
+        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_machining_1"/>
+        <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Build_to_print"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build"/>
+        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_10"/>
+        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_22"/>
+        <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#501-1000"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_05"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_23"/>
+        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_34"/>
+        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Africa"/>
+        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Germany"/>
+        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#North_America"/>
+        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ID>
+        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Openlane Plc</Name>
+        <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
+        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.91</risk>
     </owl:NamedIndividual>
     
 
@@ -5964,247 +6257,15 @@
     
 
 
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Diehl_Ltd -->
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Team_1 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Diehl_Ltd">
-        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
-        <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#0-1000000"/>
-        <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_25"/>
-        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_auxiliary_products_1"/>
-        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_surface_treatment_1"/>
-        <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Contract_for_work_&amp;_labour"/>
-        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_06"/>
-        <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#501-1000"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_14"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_29"/>
-        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Africa"/>
-        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Asia"/>
-        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Europe"/>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ID>
-        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diehl Ltd</Name>
-        <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N</acceptCurrencyNegotiation>
-        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</risk>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#CoUK_Coop -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#CoUK_Coop">
-        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
-        <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
-        <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
-        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_coatings_1"/>
-        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_metal_1"/>
-        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_machining_1"/>
-        <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Build_to_print"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Service_contract"/>
-        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_07"/>
-        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_19"/>
-        <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#501-1000"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_08"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_26"/>
-        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Africa"/>
-        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Australia"/>
-        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Germany"/>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</ID>
-        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CoUK Coop</Name>
-        <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
-        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.84</risk>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Design_Vital_Ltd -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Design_Vital_Ltd">
-        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
-        <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
-        <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
-        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_coatings_1"/>
-        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_heat_treatment_1"/>
-        <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Build_to_print"/>
-        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_08"/>
-        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_20"/>
-        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_28"/>
-        <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#501-1000"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_09"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_25"/>
-        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Australia"/>
-        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#North_America"/>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</ID>
-        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Design Vital Ltd.</Name>
-        <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
-        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.45</risk>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#ABC_aviation -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#ABC_aviation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
-        <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
-        <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
-        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_coatings_1"/>
-        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_metal_1"/>
-        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_heat_treatment_1"/>
-        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_machining_1"/>
-        <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Build_to_print"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build"/>
-        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_09"/>
-        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_21"/>
-        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_29"/>
-        <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#501-1000"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_10"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_11"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_27"/>
-        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Africa"/>
-        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Germany"/>
-        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#North_America"/>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ID>
-        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ABC Aviation</Name>
-        <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
-        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</risk>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Openlane_Plc -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Openlane_Plc">
-        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
-        <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
-        <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
-        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_coatings_1"/>
-        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_metal_1"/>
-        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_heat_treatment_1"/>
-        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_machining_1"/>
-        <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Build_to_print"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build"/>
-        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_10"/>
-        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_22"/>
-        <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#501-1000"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_05"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_23"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_34"/>
-        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Africa"/>
-        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Germany"/>
-        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#North_America"/>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ID>
-        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Openlane Plc</Name>
-        <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
-        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.91</risk>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Newextech-->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Newextech">
-        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
-        <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
-        <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
-        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_wood_1"/>
-        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_chip_removing_processes_1"/>
-        <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build"/>
-        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_11"/>
-        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_23"/>
-        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_30"/>
-        <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#201-500"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_18"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_20"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_31"/>
-        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#North_America"/>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</ID>
-        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Newex Tech</Name>
-        <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
-        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.33</risk>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Iselectrics -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Iselectrics">
-        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
-        <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
-        <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
-        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_coatings_1"/>
-        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_wood_1"/>
-        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_grinding_1"/>
-        <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build"/>
-        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_12"/>
-        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_24"/>
-        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_31"/>
-        <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#201-500"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_01"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_03"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_21"/>
-        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Asia"/>
-        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#North_America"/>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</ID>
-        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Iselectrics</Name>
-        <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N</acceptCurrencyNegotiation>
-        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</risk>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Ontoair -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Ontoair">
-        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
-        <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#0-1000000"/>
-        <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
-        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_coatings_1"/>
-        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_wood_1"/>
-        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_chip_removing_processes_1"/>
-        <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build"/>
-        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_13"/>
-        <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#201-500"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_02"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_04"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_22"/>
-        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Asia"/>
-        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#North_America"/>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</ID>
-        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ontoair</Name>
-        <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
-        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.65</risk>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Bluetronics -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Bluetronics">
-        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Company"/>
-        <hasAnnualTurnOver rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#10000000-100000000"/>
-        <hasCapabilityATA rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ATA_52"/>
-        <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_coatings_1"/>
-        <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_grinding_1"/>
-        <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build"/>
-        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_14"/>
-        <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_25"/>
-        <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#51-200"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_19"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_32"/>
-        <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_33"/>
-        <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Africa"/>
-        <ID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</ID>
-        <Name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bluetronics</Name>
-        <acceptCurrencyNegotiation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</acceptCurrencyNegotiation>
-        <risk rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.87</risk>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Team_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Team"/>
+        <hasAssignment rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_1"/>
+        <hasAssignment rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_2"/>
+        <hasAssignment rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Assignment_3"/>
+        <hasCFT rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#230_A321_Lavatory_door_panel"/>
+        <TeamID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</TeamID>
     </owl:NamedIndividual>
     
 
@@ -8816,5 +8877,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 
