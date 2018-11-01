@@ -2858,7 +2858,7 @@
         <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_machining_1"/>
         <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
         <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Build_to_print"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&_build"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build"/>
         <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_09"/>
         <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_21"/>
         <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_29"/>
@@ -3534,7 +3534,7 @@
         <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_cutting_1"/>
         <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_surface_treatment_1"/>
         <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Contract_for_work_&_labour"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Contract_for_work_&amp;_labour"/>
         <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_05"/>
         <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_18"/>
         <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#501-1000"/>
@@ -3626,7 +3626,7 @@
         <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_coatings_1"/>
         <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_grinding_1"/>
         <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&_build"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build"/>
         <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_14"/>
         <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_25"/>
         <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#51-200"/>
@@ -5008,7 +5008,7 @@
         <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_auxiliary_products_1"/>
         <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_surface_treatment_1"/>
         <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Contract_for_work_&_labour"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Contract_for_work_&amp;_labour"/>
         <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_06"/>
         <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#501-1000"/>
         <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_14"/>
@@ -5042,7 +5042,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Economic_Goal_02">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Economic_Goal"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&_build"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build"/>
         <hasRequirement rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Requirement_05"/>
         <hasTargetItem rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#door_panel1"/>
         <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Africa"/>
@@ -5058,7 +5058,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Economic_Goal_03">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Economic_Goal"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Contract_for_work_&_labour"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Contract_for_work_&amp;_labour"/>
         <hasRequirement rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Requirement_03"/>
         <hasTargetItem rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#mirror_inside1"/>
         <hasTargetRegion rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Africa"/>
@@ -5505,7 +5505,7 @@
         <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_wood_1"/>
         <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_grinding_1"/>
         <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&_build"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build"/>
         <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_12"/>
         <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_24"/>
         <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_31"/>
@@ -5619,7 +5619,7 @@
         <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_auxiliary_products_1"/>
         <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_surface_treatment_1"/>
         <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Contract_for_work_&_labour"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Contract_for_work_&amp;_labour"/>
         <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_04"/>
         <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_17"/>
         <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_27"/>
@@ -5687,7 +5687,7 @@
         <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_wood_1"/>
         <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_chip_removing_processes_1"/>
         <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&_build"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build"/>
         <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_11"/>
         <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_23"/>
         <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_30"/>
@@ -5724,7 +5724,7 @@
         <hasCapabilityMaterial rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#material_wood_1"/>
         <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_chip_removing_processes_1"/>
         <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&_build"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build"/>
         <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_13"/>
         <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#201-500"/>
         <hasSpecialty rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Specialty_02"/>
@@ -5752,7 +5752,7 @@
         <hasCapabilityTechnology rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#technology_machining_1"/>
         <hasCertification rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Certificate_A2LA"/>
         <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Build_to_print"/>
-        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&_build"/>
+        <hasContractType rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build"/>
         <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_10"/>
         <hasDepartmentLocation rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Department_Location_22"/>
         <hasNumberOfEmployees rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#501-1000"/>
@@ -8825,17 +8825,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Contract_for_work_&_labour -->
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Contract_for_work_&amp;_labour -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Contract_for_work_&_labour">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Contract_for_work_&amp;_labour">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ContractType"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&_build -->
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&_build">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#Contract_Design_&amp;_build">
         <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#ContractType"/>
     </owl:NamedIndividual>
 </rdf:RDF>
