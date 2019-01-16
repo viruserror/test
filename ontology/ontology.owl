@@ -7471,7 +7471,19 @@
     </owl:NamedIndividual>
     
 
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#material_coatings_2 -->
 
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#material_coatings_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Material_Coatings"/>
+    </owl:NamedIndividual>
+    
+
+    <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#material_coatings_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#material_coatings_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/digicor/ontology/tenderontology#Material_Coatings"/>
+    </owl:NamedIndividual>
+    
     <!-- http://www.semanticweb.org/digicor/ontology/tenderontology#material_insulation_1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/digicor/ontology/tenderontology#material_insulation_1">
